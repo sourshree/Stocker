@@ -13,9 +13,13 @@ Programming Languages: Python- Used extensively for data preprocessing, machine 
 
 Libraries and Frameworks:
 NumPy- Used for numerical computations and data manipulation.
+
 Matplotlib: Utilized for data visualization, including plotting stock price data and predictions.
+
 yfinance: Used for fetching historical stock price data.
+
 TensorFlow: Used for building and training the LSTM (Long Short-Term Memory) model for stock price prediction.
+
 Kivy: Used for creating an interactive user interface (UI) for the stock price prediction application.
 
 Machine Learning and Deep Learning:
