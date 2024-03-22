@@ -1,4 +1,4 @@
-# stocker  
+# Stocker  
 
 An AI Based stock prediction software using python, complete with gui and backend
 
@@ -9,9 +9,22 @@ The main objective of this project was to create an AI model that can accurately
 
 # Details:
 
-The optimizer used in this project is "adam", as it was found to be the best for our purpurse after testing, and gave the lowest loss function values of all.
-The dataset is fetched from "yfinance" or "yahoo finance", considers the "closing" value of a particular stock over the years. The data is then split into 2 parts of 90:10, into training and test sets respectively.
-The GUI was prepared using kivymd, making it possible to run the program across all devices like android, mac, and ios.
+Programming Languages: Python- Used extensively for data preprocessing, machine learning modeling, and application development.
+
+Libraries and Frameworks:
+NumPy- Used for numerical computations and data manipulation.
+Matplotlib: Utilized for data visualization, including plotting stock price data and predictions.
+yfinance: Used for fetching historical stock price data.
+TensorFlow: Used for building and training the LSTM (Long Short-Term Memory) model for stock price prediction.
+Kivy: Used for creating an interactive user interface (UI) for the stock price prediction application.
+
+Machine Learning and Deep Learning:
+LSTM (Long Short-Term Memory): Implemented to build a predictive model for stock prices.
+Data Preprocessing: Handled data normalization using MinMaxScaler and created training and test datasets.
+
+Data Visualization: Created interactive and informative plots using Matplotlib to visualize true stock data, training predictions, test predictions, and future predictions.
+
+Application Development: Developed a complete application using Kivy for the UI, allowing users to input stock symbols and view predicted stock prices.
 
 # Variables:
 
